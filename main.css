@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container-login {
+    background-color: #bdeaff;
+    max-width: 560px;
+    margin: 64px auto;
+    padding: 38px 32px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 38px;
+    font-size: 45px;
+}
+
+.container-login input,
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 528px;
+    padding: 19.2px;
+    font-size: 22.4px;
+    border-radius: 8px;
+    border: 1px solid #777;
+    margin-bottom: 28.8px;
+}
+
+.btn-sumbit {
+    background-color: #00b7ff;
+    color: #fff;
+}
+
+.container-login label {
+    display: inline-block;
+    font-size: 22.4px;
+    color: #555;
+    margin-bottom: 12.8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    display: inline-block;
+    font-size: 22.4px;
+    color: #db0303;
+    margin-bottom: 32px;
+    margin-left: 12.8px;
+}
+
+.face {
+    background-color: #1a77f2;
+    color: #fff;
+    margin-top: 32px;
+    background-image: url('facebook.svg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 3px;
+}
+
+.google {
+    color: #555;
+    background-image: url('google.svg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 3px;
+}
+
+.line {
+    display: inline-block;
+    border-bottom: solid 1px #aaa;
+    width: 42%;
+}
+
+.center {
+    color: #777;
+    margin: 0 12 8px;
+    font-size: 22.4px;
+}
+
+#header,
+#wrapper {
+    margin-bottom: 10px;
+}
+
+.background-wrapper {
+    background: url('anhbia.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+div.a {
+    text-align: center;
+}
+
+img.w3-hover-opacity {
+    max-width: 100%; /* Đảm bảo logo không vượt quá chiều rộng màn hình */
+    max-height: 50%; /* Đảm bảo logo không vượt quá chiều cao màn hình */
+    margin-bottom: 20px; /* Thêm khoảng cách dưới logo */
+}
+
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #aaa;
+    .list-controller {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-evenly;
+        height: 100%;
+        align-items: center;
+        .controller-item {
+            padding: 10px 20px;
+            font-size: 18px;
+            letter-spacing: 0.02em;
+            line-height: 21px
+        }
+        .controller-item:hover {
+            background-color: #777;
+            border-radius: 10px;
+            color: #eeee;
+            cursor: pointer;
+            transition: ease 0.5s ;
+        }
+    }
+}
