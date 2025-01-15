@@ -252,6 +252,7 @@ img.w3-hover-opacity {
                         color: #333333;
                         font-size: 14px;
                         line-height: 14px;
+                        padding-bottom: 15px;
                     }
                 }
             }
@@ -290,6 +291,83 @@ img.w3-hover-opacity {
         }
     }
 }
+.shopping-cart-container {
+    .cart-container {
+        padding: 30px;
+        border: solid 1px #c0c0c0;
+        border-radius: 15px;
+
+        .cart-title {
+            column-gap: 5px;
+            align-items: center;
+        }
+        .cart-title h3 {
+            color: #004f92;
+        }
+        .cart-title p {
+            color: #999999;
+        }
+        .cart-table table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+            .cart-table-header tr {
+                th {
+                    padding: 5px 0;
+                }
+                th:first-child {
+                    text-align: left;
+                    padding-left: 10px ;
+                }
+            }
+            .cart-table-body tr {
+                border: solid 1px #c0c0c0;
+                border-radius: 10px;
+                .cart-item {
+                    column-gap: 10px;
+                    align-items: center;
+                    .cart-item-img img {
+                        height: 70px;
+                        width: 70px;
+                    }
+                    .cart-item-info p {
+                        font-size: 14px;
+                        color: #777;
+                        line-height: 18px;
+                        padding: 4px 2px;
+                    }
+                    .cart-item-info h4 {
+                        color: #004f92;
+                    }
+                }
+                .quantity-action {
+                    column-gap: 5px;
+                    align-items: center;
+                    .adjust-quantity-btn {
+                        display: flex;
+                        align-items: center;
+                        padding: 6px 10px;
+                        background-color: #fff;
+                        border: solid 1px #c0c0c0;
+                        border-radius: 50%;
+                        cursor: pointer;
+                    }
+                }
+                .remove-btn {
+                    background-color: #fff;
+                    color: #d71921;
+                    font-weight: 600;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+            .cart-table-body td {
+                padding: 10px;
+            }
+        }
+        
+    }
+}
 .d-flex {
     display: flex;
 }
@@ -307,4 +385,10 @@ img.w3-hover-opacity {
 }
 .mb-15 {
     margin-bottom: 15px;
+}
+.back-btn {
+    margin: 15px 10px;
+}
+.j-sb {
+    justify-content: space-between;
 }
